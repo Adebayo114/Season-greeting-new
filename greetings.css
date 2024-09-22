@@ -10,7 +10,7 @@ body {
   .start {
     text-align: center;
     font-family: cursive;
-    background-color: rgba(255, 255, 255, 0.8); /* White transparent background */
+    background-color: rgba(149, 146, 146, 0.8); /* White transparent background */
     padding: 1rem;
     border: 2px solid black;
     border-radius: 10px; /* Optional: add some rounded corners */
