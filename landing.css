@@ -52,12 +52,183 @@ a:hover{
     color: red;
 }
 
+
 .whatsapp-image {
     margin-top: 2px;
     transition: transform 0.6s;
 }
 
+a{
+    color: rgb(0, 0, 0);
+}
+
 .whatsapp-image:hover{
     transform: scale(1.1);
     cursor: pointer;
+}
+
+/* landing.css */
+
+/* Default background */
+.default-bg {
+    background-color: #f0f0f0; /* Fallback color if no image is set */
+}
+
+/* Background for Happy Birthday */
+.happy-birthday-bg {
+    background-image: url('./images/pexels-nietjuh-796606.jpg'); /* Replace with the correct path */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Background for Happy New Year */
+.happy-new-year-bg {
+    background-image: url('./images/pexels-johnpaultyrone-450301.jpg'); /* Replace with the correct path */
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+/* Background for Valentine's Day */
+.happy-valentines-day-bg {
+    background-image: url('./images/pexels-gabby-k-5874620.jpg'); /* Replace with the correct path */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Background for Happy Easter */
+.happy-easter-bg {
+    background-image: url('./images/pexels-italo-melo-248867-2356140.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+/* Background for Halloween */
+.happy-halloween-bg {
+    background-image: url('./images/pexels-ifreestock-619424.jpg');
+    background-size: cover;
+    background-position: center;
+    color: red;
+}
+
+/* Background for Mother's Day */
+.happy-mothers-day-bg {
+    background-image: url('./images/pexels-pixabay-51953.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Background for Father's Day */
+.happy-fathers-day-bg {
+    background-image: url('./images/pexels-josh-willink-11499-69096.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Background for Children's Day */
+.happy-childrens-day-bg {
+    background-image: url('./images/pexels-ajaybhargavguduru-939700.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+/* Background for Merry Christmas */
+.merry-christmas-bg {
+    background-image: url('./images/pexels-efrem-efre-2786187-19618156.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+/* Background for Boxing Day */
+.happy-boxing-day-bg {
+    background-image: url('./images/pexels-ma-boite-a-photos-64239-236128.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Background for Ed-al-Kabir */
+.happy-ed-al-kabir-bg {
+    background-image: url('./images/pexels-aqtai-2233416.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+/* Background for Ramadan */
+.happy-ramadan-bg {
+    background-image: url('./images/pexels-thatguycraig000-1652301.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+/* Background for Ed-al-Fitr */
+.happy-ed-al-fitr-bg {
+    background-image: url('./images/pexels-thirdman-7957127.jpg');
+    background-size: cover;
+    background-position: center;
+    color:chocolate;
+}
+
+.happy-graduation-day-bg {
+    background-image: url('./images/pexels-rdne-7713351.jpg');
+    background-size: cover;
+    background-position: center;
+    color:chocolate;
+}
+
+.keep-up-the-good-work-bg{
+    background-image: url('./images/pexels-savvas-stavrinos-270619-814544.jpg');
+    background-size: cover;
+    background-position: center;
+    color:black;
+    text-shadow:
+    2px 2px 0 white, /* White outline to the bottom-right */
+    -2px -2px 0 white, /* White outline to the top-left */
+    -2px 2px 0 white, /* White outline to the bottom-left */
+    2px -2px 0 white; /* White outline to the top-right */
+
+}
+
+/* Background for Eid-al-Maulud */
+.eid-al-maulud-bg {
+    background-image: url('./images/pexels-halid-elosman-3328515-28161238.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Background for Independence Day  */
+.happy-independence-day-bg {
+    background-image: url('./images/pexels-tiohugo-16146279.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Background for Democracy Day */
+.happy-democracy-day-bg {
+    background-image: url('./images/pexels-rdne-6257105.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow:
+    2px 2px 0 rgb(198, 60, 60), /* White outline to the bottom-right */
+    -2px -2px 0 white, /* White outline to the top-left */
+    -2px 2px 0 white, /* White outline to the bottom-left */
+    2px -2px 0 white; /* White outline to the top-right */
+}
+
+/* Background for Worker's Day */
+.happy-workers-day-bg {
+    background-image: url('./images/pexels-mikebirdy-417827.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow:
+    2px 2px 0 rgb(0, 0, 0), /* White outline to the bottom-right */
+    -2px -2px 0 white, /* White outline to the top-left */
+    -2px 2px 0 white, /* White outline to the bottom-left */
+    2px -2px 0 white; /* White outline to the top-right */
 }

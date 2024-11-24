@@ -1,3 +1,4 @@
+
 function submitForm() {
     // Get form elements
     let myname = document.getElementById('Name').value;

@@ -1,80 +1,80 @@
 body {
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: #f0f0f0; /* Set the background color of the entire page */
-  }
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* Set the background color of the entire page */
+}
 
-  .start {
-    text-align: center;
-    font-family: cursive;
-    background-color: rgba(149, 146, 146, 0.8); /* White transparent background */
-    padding: 1rem;
-    border: 2px solid black;
-    border-radius: 10px; /* Optional: add some rounded corners */
-  }
+.start {
+  text-align: center;
+  font-family: cursive;
+  background-color: rgba(149, 146, 146, 0.8); /* White transparent background */
+  padding: 1rem;
+  border: 2px solid black;
+  border-radius: 10px; /* Optional: add some rounded corners */
+}
 
-  #form {
-    margin: 0; /* Remove default form margin */
-  }
+#form {
+  margin: 0; /* Remove default form margin */
+}
 
-  label {
-    margin-right: 10px; /* Add some spacing between labels and inputs */
-  }
+label {
+  margin-right: 10px; /* Add some spacing between labels and inputs */
+}
 
-  input{
-    border: none;
-    padding: 5px;
-    border-radius: 2rem;
-  }
-  input, button {
-    margin-bottom:1px; /* Add some vertical space between inputs and button */
-  }
+input{
+  border: none;
+  padding: 5px;
+  border-radius: 2rem;
+}
+input, button {
+  margin-bottom:1px; /* Add some vertical space between inputs and button */
+}
 
 body {
-    margin: 0;
-    overflow: hidden;
-  }
+  margin: 0;
+  overflow: hidden;
+}
 
-  .video-background {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
-    z-index: -1;
-  }
+.video-background {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -1;
+}
 
-  video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
-  .content {
-    position: relative;
-    z-index: 1;
-    color: #fff;
-    text-align: center;
-    padding: 0px;
-  }
+.content {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  text-align: center;
+  padding: 0px;
+}
 
-  h1{
+h1{
 color: black;
-  }
+}
 
-  p{
-    color: black;
-  }
+p{
+  color: black;
+}
 
-  .select-list {
-    padding: 5px;
-    border: none;
-    border-radius: 2rem;
+.select-list {
+  padding: 5px;
+  border: none;
+  border-radius: 2rem;
 }
 .list-child {
-    font-family: cursive;
+  font-family: cursive;
 }
